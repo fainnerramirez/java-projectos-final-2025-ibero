@@ -22,6 +22,7 @@ public class SoftwareDevelopmentCompany {
             System.out.println("1. Registrar Director");
             System.out.println("2. Registrar Developer");
             System.out.println("3. Registrar un Tester");
+            System.out.println("4. Salir del sistema");
             option = input.nextInt();
 
             input.nextLine();
@@ -127,7 +128,7 @@ public class SoftwareDevelopmentCompany {
                     break;
             }
 
-        } while (option != 6);
+        } while (option != 4);
     }
 
 }
